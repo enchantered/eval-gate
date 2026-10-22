@@ -1,0 +1,5 @@
+{
+  "version": 1,
+  "sources": {"handbook": ["A source line that says one thing."]},
+  "cases": [{"id": "bad-quote", "attempts": [{"delay_ms": 0, "response": {"answer": "This output has a fabricated quote.", "citations": [{"source": "handbook", "line": 1, "quote": "A fabricated quote."}]}}]}]
+}

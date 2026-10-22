@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "sources": {"handbook": ["Retries are allowed for transient transport failures.", "A quoted citation must match its source line exactly."]},
+  "cases": [
+    {"id": "retry-then-pass", "attempts": [
+      {"delay_ms": 0, "error": "transient"},
+      {"delay_ms": 0, "response": {"answer": "Only retry transient failures.", "citations": [{"source": "handbook", "line": 1, "quote": "Retries are allowed for transient transport failures."}]}}
+    ]}
+  ]
+}
